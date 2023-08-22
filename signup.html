@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            list-style: none;
+            color: white;
+         }
+         body{
+        background-color: rgb(243, 243, 243);
+        margin: 0px;
+    }
+.button{
+    background-color: #377CC8;
+    width: 5%;
+    font-size: 1vw;
+    color: white;
+    text-align: center; border-radius: 10%;
+}
+.information{
+display: flex;
+position: relative;
+justify-content: space-around;
+}
+input{
+    border-radius: 5vh;
+    width: 50%;
+    left: 1vw;
+    position: relative;
+    color: black;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="headings" style="position: fixed; box-shadow: 0px 1px 20px black;">
+        <div class="header" style="width: 100%; height: 2%; background-color: #377CC8; text-align: center; color: white; font-size: large;">
+            The #1 site for home lighting
+        </div>
+        <div class="head" style="width: 100%; height: fit-content;">
+            <img src="shine.jpg"style="width: 100%;">
+            <div class="button" style="position: absolute; top: 60%; right: 10%;">
+                <a href="signup.html" style="color: white; text-decoration: none;">Sign Up</a></div>
+        </div>
+        <div class="button" style="position: absolute; top: 60%; right: 18%; background-color: #e0af47;">
+            <a href="#" style="color: white; text-decoration: none;">Log in</a></div>
+    </div>
+    </div>
+    <div class="wrapper" style="position: relative; top: 20vh; display: flex; align-items: center; justify-content: center;">
+        <div class="form" style="width: 25%; background-color: #377CC8; height: fit-content; border-radius: 2vh;">
+            <div class="title" style="text-align: center; color: white; font-size: xx-large; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+                Sign up Today
+            </div>
+            <div class="information" style="margin-top: 5%;">
+                <label style="color: white; font-size: large;">First Name: </label>
+                <input type="text"></Inp>
+            </div>
+            <div class="information" style="margin-top: 7%;">
+                <label style="color: white; font-size: large;">Last Name: </label>
+                <input type="text"></input>
+            </div>
+            <div class="information" style="margin-top: 7%;">
+                <label style="color: white; font-size: large;">Street Adress 1: </label>
+                <input type="text"></input>
+            </div>
+            <div class="information" style="margin-top: 7%;">
+                <label style="color: white; font-size: large;">Street Adress 2: </label>
+                <input type="text"></input>
+            </div>
+            <div class="information" style="margin-top: 7%;">
+                <label style="color: white; font-size: large;">City: </label>
+                <input type="text"></input>
+            </div>
+            <div class="information" style="margin-top: 7%;">
+                <label style="color: white; font-size: large;">State: </label>
+                <input type="text"></input>
+            </div>
+            <div class="information" style="margin-top: 7%;">
+                <label style="color: white; font-size: large;">Email: </label>
+                <input type="text"></input>
+            </div>
+            <div class="information" style="margin-top: 7%;">
+                <label style="color: white; font-size: large;">Sign up for newsletter to recieve updates?<ul>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Yes</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">No</label><br>
+                </ul>
+                </label>
+            </div>
+            <button style="width: 30%; color: #377CC8;  height: 5vh; text-align: center; font-size: xx-large; border-radius: 2vh; ">Submit</button>
+        </div>
+    </div>
+</body>
+</html>

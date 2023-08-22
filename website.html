@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShineTech Innovations</title>
+</head>
+<style>
+    body{
+        background-color: rgb(243, 243, 243);
+        margin: 0px;
+    }
+.button{
+    background-color: #377CC8;
+    width: 5%;
+    font-size: 1vw;
+    color: white;
+    text-align: center; border-radius: 10%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40vh;
+  }
+  
+.card {
+  background-color: transparent;
+  width: 15%;
+  height: 35vh;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: scale(1.2);
+}
+
+.card-front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10%;
+}
+
+.card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<body>
+    <div class="headings" style="position: fixed; box-shadow: 0px 1px 20px black;">
+    <div class="header" style="width: 100%; height: 2%; background-color: #377CC8; text-align: center; color: white; font-size: large;">
+        The #1 site for home lighting
+    </div>
+    <div class="head" style="width: 100%; height: fit-content;">
+        <img src="shine.jpg"style="width: 100%;">
+        <div class="button" style="position: absolute; top: 60%; right: 10%;">
+            <a href="signup.html" style="color: white; text-decoration: none;">Sign Up</a></div>
+    </div>
+    <div class="button" style="position: absolute; top: 60%; right: 18%; background-color: #e0af47;">
+        <a href="#" style="color: white; text-decoration: none;">Log in</a></div>
+</div>
+</div>
+<div style="text-align: center; font-size: xx-large; width: 100%; position: relative; top: 38vh; font-style: italic; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Products</div>
+<div class="wrapper">
+    <div class="card">
+        <a href="light1.html">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="light1.JPG"style="width: 100%; height: 100%; border-radius: 10%;">
+        </a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a href="#">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="light2.JPG" style="width: 100%; height: 100%; border-radius: 10%;">
+        </a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a href="#">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="light3.JPG" style="width: 100%; height: 100%; border-radius: 10%;">
+        </a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="ad">
+    <img src="ad.JPG" style="width: 5.5%; position: fixed; left: 0px;top: 16vh;">
+  </div>
+</body>
+</html>
